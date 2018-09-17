@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<input id="vardas"type="text" name="" value="">
+<input type="button" name="" value=""onclick=" tikrinamJona()">
+<input id="pavarde"type="text" name="" value="">
+<input type="button" name="" value=""onclick=" tikrinamJona()">
+
+
+    <script type="text/javascript"src="mano.js">
+
+    </script>
+
+    <script type="text/javascript">
+
+    function tikrinamJona() {
+      var vardas = document.getElementById("vardas").value;
+      console.log("patikrinimas");
+      var pavarde = document.getElementById("pavarde").value;
+      console.log("antraspatikrinimas");
+      var ileisti = jonoPrisijungimas(vardas, pavarde);
+      console.log("treciaspatikrinimas");
+      console.log(ileisti);
+    }
+
+
+    </script>
+  </body>
+</html>
